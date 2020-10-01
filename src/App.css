@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sansita Swashed', cursive;
+  line-height: 150%;
+  /* justify-content: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3 {
+  /* line-height: 200%; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  font-size: 1rem;
+  border: none;
+  padding: 4px 8px 4px 8px;
+  border-radius: 4px;
+  background-color: rgb(102, 37, 139);
+  color: #fff;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+.title, .search-form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.random-button{
+  margin-left: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.colorful-button {
+  background-image: linear-gradient(45deg, #00dbde 0%, #fc00ff 100%);
+}
+
+.search-button {
+  margin-left: 2px;
+}
+
+.search-bar {
+  border: none;
+  background-color: rgb(236, 224, 243);
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.recipe-section {
+  /* padding: 100px 0 160px; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* background-color: #fafafa; */
 }
