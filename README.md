@@ -1,6 +1,6 @@
 # Recipe Search
 
-Please find the [demo here](https://drinkstyle.github.io/React-recipe-search/).
+Please find the [demo here](https://changclaire30.github.io/React-recipe-search/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 This project uses [Edamam API](https://developer.edamam.com/) to retrieve the recipe information of any keyword searched.
